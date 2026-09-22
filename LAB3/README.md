@@ -30,8 +30,14 @@
 
 ## Kết quả
 
-Đang thực hiện.
+- [x] Tạo repository và cấu trúc báo cáo
+- [x] Chuẩn bị bộ dữ liệu lab3_assets
+- [x] Chuẩn bị Sysmon 15.22, Autoruns 14.3, Process Explorer 17.14 và Wireshark 4.6.8
+- [x] Hoàn thành risk register và phân loại nguồn đe dọa
+- [ ] Hoàn thành Windows 11 25H2 VM
+- [ ] Thu thập đầy đủ bằng chứng TH2–TH7
+- [ ] Cleanup, verify và tạo evidence_sha256.csv
 
 ## Lỗi gặp phải và cách khắc phục
 
-Sẽ cập nhật sau khi hoàn thành thực hành.
+Máy ban đầu chỉ có VM Kali Linux và Windows Server 2025, không phù hợp với môi trường Windows 11 25H2 của LAB 3. Không sử dụng ảnh hoặc kết quả từ hệ điều hành sai yêu cầu. Cần dựng lại Windows 11 VM trên VMware Workstation Pro, cấu hình Host-only và tạo snapshot sạch trước khi tiếp tục.
