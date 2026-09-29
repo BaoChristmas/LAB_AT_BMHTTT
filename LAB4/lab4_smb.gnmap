@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Sep 29 16:51:17 2026 as: /usr/lib/nmap/nmap -p 445 --script smb-os-discovery,smb-vuln-ms17-010 -oA lab4_smb 192.168.56.102
+Host: 192.168.56.102 ()	Status: Up
+Host: 192.168.56.102 ()	Ports: 445/open/tcp//microsoft-ds//Samba smbd 3.0.20-Debian/
+# Nmap done at Tue Sep 29 16:51:18 2026 -- 1 IP address (1 host up) scanned in 0.29 seconds

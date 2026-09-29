@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Tue Sep 29 16:51:17 2026 as: /usr/lib/nmap/nmap -p 445 -&#45;script smb-os-discovery,smb-vuln-ms17-010 -oA lab4_smb 192.168.56.102 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -p 445 -&#45;script smb-os-discovery,smb-vuln-ms17-010 -oA lab4_smb 192.168.56.102" start="1790675477" startstr="Tue Sep 29 16:51:17 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.56.102" addrtype="ipv4"/>
+<address addr="08:00:27:3B:1E:D2" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1790675478" endtime="1790675478"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.56.102" addrtype="ipv4"/>
+<address addr="08:00:27:3B:1E:D2" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" product="Samba smbd" version="3.0.20-Debian" method="probed" conf="10"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.20-Debian)&#xa;  Computer name: metasploitable&#xa;  NetBIOS computer name: &#xa;  Domain name: localdomain&#xa;  FQDN: metasploitable.localdomain&#xa;  System time: 2026-09-29T05:51:18-04:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.20-Debian</elem>
+<elem key="server"></elem>
+<elem key="date">2026-09-29T05:51:18-04:00</elem>
+<elem key="fqdn">metasploitable.localdomain</elem>
+<elem key="domain_dns">localdomain</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script></hostscript><times srtt="1061" rttvar="3757" to="100000"/>
+</host>
+<runstats><finished time="1790675478" timestr="Tue Sep 29 16:51:18 2026" summary="Nmap done at Tue Sep 29 16:51:18 2026; 1 IP address (1 host up) scanned in 0.29 seconds" elapsed="0.29" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
